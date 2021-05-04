@@ -1,0 +1,67 @@
+.card_zero{
+    border: 2px solid gray;
+    width: 250px;
+    padding: 20px;
+    height: 610px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 10px ;
+    background-image: linear-gradient(red, rgb(24, 16, 71));
+        }
+    .card_one{
+    border: 2px solid gray;
+    width: 250px;
+    padding: 20px;
+    height: 620px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 10px ;
+    background-image: linear-gradient(rgb(236, 230, 230), rgb(1, 0, 5));
+        }
+        .card_two{
+            border: 2px solid gray;
+            width: 250px;
+            padding: 20px;
+            height: 630px;
+            text-align: center;
+            color: rgb(14, 1, 1);
+            margin-top: 10px;
+            border-radius: 10px ;
+            background-image: linear-gradient(rgb(241, 206, 7), rgb(142, 140, 155));            
+            }
+ 
+       .bg_image{
+        background-image: url(logo_2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 170vh;
+        filter: blur(1px);
+    }
+    h5::first-letter{
+        color: rgb(26, 243, 55);
+        font-size: 60px;
+    }
+    .bg_content{
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50px, -50px);
+        border: 1px solid grey;
+        width: 200px;
+        padding: 50px;
+        color: grey;
+        box-shadow:0 0 0 5px rgba(85, 35, 35, 0.377);
+        text-align: center;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvDOiLWyVLycXpxvi1z4aSjAtbmHr_ijOaRg&usqp=CAU);
+        background-size: cover;
+        background-position: center;
+    }
+    .card_main{
+        display: flex;
+        justify-content: space-evenly;
+                }
+    
+    
+    
